@@ -87,7 +87,7 @@
                         </div>
                             <button class="btn btn-primary btn-block login-button" type="submit"><i class="fa fa-user"></i> Register </button>
                             <div class="checkbox login-options">
-                                <a href="" class="login-forgot"> Already a member? Login here.</a>
+                                <a href="{{ url('/login') }}" class="login-forgot"> Already a member? Login here.</a>
                             </div>      
                     </form>
         </div>
